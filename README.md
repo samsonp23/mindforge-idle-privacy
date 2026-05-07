@@ -1,6 +1,6 @@
 # Privacy Policy — Mindforge Idle
 
-**Last updated:** April 12, 2026
+**Last updated:** May 7, 2026
 
 ---
 
@@ -15,17 +15,22 @@ By installing or using the App, you agree to the terms described in this policy.
 
 ## 1. Information We Collect
 
-### 1.1 No Personal Data Collected
+### 1.1 Data We Collect Directly
 
-Mindforge Idle does **not** collect, transmit, or share any personally identifiable information (PII), including but not limited to:
+Mindforge Idle does **not** directly collect, transmit, or share any personally identifiable information (PII), including:
 
 - Name
 - Email address
 - Phone number
 - Location data
-- Device identifiers sent to our servers
 
-### 1.2 Local Game Data (On-Device Only)
+We do not operate any servers that receive your personal data.
+
+### 1.2 Data Collected by Third-Party SDKs
+
+While we do not collect data ourselves, our app integrates third-party SDKs (such as Google AdMob) that automatically collect certain data. See **Section 2** for details.
+
+### 1.3 Local Game Data (On-Device Only)
 
 The App saves your game progress **locally on your device** using your device's local storage (via AsyncStorage). This data includes:
 
@@ -34,7 +39,7 @@ The App saves your game progress **locally on your device** using your device's 
 - Game settings and preferences
 - Timestamps related to game progression
 
-This data **never leaves your device** and is not transmitted to any server or third party.
+This game save data **never leaves your device** and is not transmitted to any server by us or our game systems.
 
 ---
 
@@ -46,11 +51,22 @@ The App is distributed through Google Play. Google may collect certain technical
 
 We do not have access to this data.
 
-### 2.2 Advertising (if applicable)
+### 2.2 Advertising
 
-If the App displays advertisements, they may be served by third-party ad networks (e.g., Google AdMob). These services may use device identifiers and cookies to serve relevant ads. Please refer to their respective privacy policies for more information:
+The App displays advertisements served by **Google AdMob** (Google LLC). The AdMob SDK automatically collects the following data to serve and measure ads:
 
+- **Device or other IDs** — The Android Advertising ID (GAID) or equivalent identifier is collected and transmitted to Google's servers to enable personalized or non-personalized advertising.
+- **App interactions** — Ad impressions and click events are collected to measure ad performance.
+- **App info and performance** — Diagnostic data and crash reports may be collected to improve SDK stability.
+
+This data is collected and processed by Google in accordance with their privacy policies. We do not have direct access to this data.
+
+You can opt out of personalized advertising at any time via your device settings:
+- **Android**: Settings → Google → Ads → "Delete advertising ID" or "Opt out of Ads Personalization"
+
+References:
 - [Google AdMob Privacy Policy](https://policies.google.com/privacy)
+- [AdMob Data Safety Guidance](https://support.google.com/admob/answer/9999955)
 
 ### 2.3 In-App Purchases (if applicable)
 
