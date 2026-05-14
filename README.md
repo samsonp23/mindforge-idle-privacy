@@ -1,6 +1,6 @@
 # Privacy Policy — Mindforge Idle
 
-**Last updated:** May 7, 2026
+**Last updated:** May 14, 2026
 
 ---
 
@@ -71,6 +71,25 @@ References:
 ### 2.3 In-App Purchases (if applicable)
 
 If the App offers in-app purchases, transactions are processed entirely by Google Play. We do not collect or store any payment information.
+
+### 2.4 Firebase Analytics (Google LLC)
+
+The App uses **Firebase Analytics** (Google LLC) to collect anonymous usage statistics. This data helps us understand how players interact with the game and improve future updates.
+
+Firebase Analytics automatically collects the following data:
+
+- **App diagnostics** — App version, device model, operating system version
+- **App interactions** — Session duration, first open event, screen views
+- **Device or other IDs** — An anonymous App Instance ID that identifies an installation (not a person). This ID changes if the user reinstalls the App.
+- **Location (approximate)** — Country/region derived from network information, not GPS
+
+This data is transmitted to Google's servers in the United States and processed in accordance with [Google's Privacy Policy](https://policies.google.com/privacy).
+
+Firebase Analytics does **not** collect your name, email address, precise location, or any content from your game save data.
+
+References:
+- [Firebase Privacy and Security](https://firebase.google.com/support/privacy)
+- [Google Analytics for Firebase — Data collected](https://support.google.com/firebase/answer/6318039)
 
 ---
 
